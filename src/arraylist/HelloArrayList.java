@@ -1,3 +1,5 @@
+package arraylist;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,7 @@ public class HelloArrayList {
     public static void main(String[] args) {
 
 
-        ArrayList<String> nameList = new ArrayList<>();
+        List<String> nameList = new ArrayList<>();
 
         nameList.add("Paco");
         nameList.add("Bob");
